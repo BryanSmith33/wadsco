@@ -5,7 +5,7 @@ import MobileNav from './MobileNav'
 
 const Navbar = styled.nav`
   width: 100%;
-  height: 5em;
+  height: 4em;
   padding: 0 2em;
   background: #111111e3;
   display: flex;

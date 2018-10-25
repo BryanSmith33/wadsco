@@ -15,13 +15,13 @@ const FooterContainer = styled.footer`
   align-items: center;
   flex-wrap: wrap;
   font-family: 'Lato';
-  @media (max-width: 450px) {
+  @media (max-width: 890px) {
     justify-content: space-around;
   }
 `
 const Copyright = styled.p`
   margin: 0;
-  @media (max-width: 450px) {
+  @media (max-width: 890px) {
     text-align: center;
     margin: 0 1em 1em;
   }

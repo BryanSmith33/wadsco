@@ -19,12 +19,15 @@ const Bar = styled.div`
 const NavContainer = styled.div`
   background: #111111e3;
   color: #fff;
-  height: ${props => (props.visible ? `235px` : 0)};
+  height: 235px;
   width: 100%;
   position: absolute;
-  left: 0;
-  top: 90px;
-  transition: height 0.7s;
+  right: ${props => (props.visible ? `0px` : `-3400px`)};
+  top: 72px
+  transition: right 0.5s ease-in-out;
+    @media (max-width: 480px) {
+    top: 64px;
+  }
 `
 const NavLink = styled(Link)`
   color: #fff;
@@ -63,7 +66,6 @@ class MobileNav extends Component {
     })
   }
   render() {
-    console.log(this.state)
     return (
       <>
         <Hamburger onClick={this.handleShowMobileNav}>

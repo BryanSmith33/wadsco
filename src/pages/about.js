@@ -1,13 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import AboutHero from '../components/About/Hero'
+import CompanyValues from '../components/About/Values/CompanyValues'
+import CoreValues from '../components/About/Values/CoreValues'
 
 const AboutPage = () => (
   <Layout>
-    <h1>Hi from the about page</h1>
-    <p>Welcome to about</p>
-    <Link to="/">Go back to the homepage</Link>
+    <AboutHero />
+    <CompanyValues />
+    <CoreValues />
   </Layout>
 )
 

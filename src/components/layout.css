@@ -623,9 +623,8 @@ pre tt:after {
   }
 }
 
-
 /* MY STYLES */
 
 .active-link {
-  color: #ab0e17;
+  color: #999;
 }

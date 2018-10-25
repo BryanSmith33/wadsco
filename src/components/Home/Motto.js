@@ -5,7 +5,6 @@ import MottoBackground from '../../images/motto.jpg'
 const MottoContainer = styled.section`
   background: url(${MottoBackground}) no-repeat center center;
   background-size: cover;
-  position: relative;
   width: 100%;
   height: 400px;
   padding: 0 2em;

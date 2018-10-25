@@ -7,13 +7,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Wadsworth Construction',
+        short_name: 'Wadsco',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#111',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/wadsco.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',
